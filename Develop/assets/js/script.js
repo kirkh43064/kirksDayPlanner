@@ -6,7 +6,7 @@ let today = moment().format("dddd, MMMM Do");
 let now = moment().format("H A");
 
 /* workday entries for each hour of the workday */
-const workday = [
+let workday = [
   { time: "9 AM", event: "" },
   { time: "10 AM", event: "" },
   { time: "11 AM", event: "" },
